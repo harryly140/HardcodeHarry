@@ -2,7 +2,7 @@
 Personal website to work on development skills
 
 Features:
-1. Registration
+1. 
 
 ## Frontend(Angular)
 1. Change directories to webapp
