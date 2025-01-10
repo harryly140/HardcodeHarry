@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { SandboxComponent } from './components/sandbox/sandbox.component';
 import { ToDoComponent } from './components/to-do/to-do.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ToDoComponent } from './components/to-do/to-do.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
